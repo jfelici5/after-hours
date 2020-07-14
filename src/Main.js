@@ -2,7 +2,9 @@ import React from 'react'
 import ReactDOM, { unmountComponentAtNode } from 'react-dom'
 import {Row, Col} from 'antd';
 import './App.css';
-import erin from './headshots/erin.jpg'
+import './People.css';
+import './Albums.css';
+import logo from './imagesmisc/finallogopng.png'
 
 /*C:\Users\jackf\OneDrive\afterhours\public*/
 
@@ -16,16 +18,16 @@ function Main(){
 <div>        
 <section className="et-hero-tabs">
 <div className="et-hero-tabs-container">
-    <a className="et-hero-tab" href="#tab-es6">HOME</a>
-    <a className="et-hero-tab" href="#tab-flexbox">ABOUT</a>
-    <a className="et-hero-tab" href="#tab-other">MEMBERS</a>
-    <a className="et-hero-tab" href="#tab-react"><img src = {'finallogopng.png'} alt = "pleasework" className = "logo-image-tab"/></a>
-    <a className="et-hero-tab" href="#tab-react">MUSIC</a>
-    <a className="et-hero-tab" href="#tab-angular">GALLERY</a>
-    <a className="et-hero-tab" href="#tab-angular">NEWS</a>
+    <a className="et-hero-tab" href="#about">ABOUT</a>
+    <a className="et-hero-tab" href="#upcoming">UPCOMING</a>
+    <a className="et-hero-tab" href="#members">MEMBERS</a>
+    <a className="et-hero-tab" href="#home"><img src = {logo} alt = "pleasework" className = "logo-image-tab"/></a>
+    <a className="et-hero-tab" href="#music">MUSIC</a>
+    <a className="et-hero-tab" href="#media">MEDIA</a>
+    <a className="et-hero-tab" href="#bookus">BOOK US</a>
     <span className="et-hero-tab-slider"></span>
   </div>
-  <div className = "title-holder">
+  <section className = "title-holder" id="home">
   <Row>
       <Col span={24}>
           <h1 className = "after">After Hours <h3 className = "premiere">Rochester's premiere co-ed a cappella group</h3></h1>
@@ -36,15 +38,15 @@ function Main(){
   
   
   
-  </div>
+  </section>
   
 </section>
 
 
 <main className="et-main">
   <div className ="content-holder">
-  <section className="et-slide-about" id="tab-es6">
-    <h1><img src = {'finallogopng.png'} alt = "pleasework" className = "logo-image"/></h1>
+  <section className="et-slide-about" id="about">
+    <h1><img src = {logo} alt = "pleasework" className = "logo-image"/></h1>
     <h1 className = "about-heading-text">ABOUT AFTER HOURS</h1>
     <h3 className = "about-text">After Hours, the University of Rochester's oldest co-ed a cappella group, was formed in 1998 as a vocal jazz group called Charivari. In 2000, the group was renamed After Hours and evolved into the ensemble it now is. While our members spend most of their time together building friendships through tight harmonies and kick-ass tunes, we pride ourselves on being close friends outside of rehearsal as well.
     <br/>
@@ -57,7 +59,7 @@ If you'd like to see us live, After Hours has two major concerts per year, one e
   </section>
   </div>
   </main>
-  <section className="et-slide-upcoming" id="tab-es6">
+  <section className="et-slide-upcoming" id="upcoming">
     <h1 className = "about-heading-text">UPCOMING SHOWS</h1>
     <h3 className = "about-text">
       No upcoming shows.
@@ -65,7 +67,10 @@ If you'd like to see us live, After Hours has two major concerts per year, one e
   </section>
   <main className="et-main">
   <div className ="content-holder">
-  <section className="slideshow" id="tab-flexbox">
+  <section className="slideshow" id="members">
+    <h2>
+      MEET US
+    </h2>
     <div className = "grid">
             
             <div className = "grace">
@@ -105,21 +110,19 @@ If you'd like to see us live, After Hours has two major concerts per year, one e
 
   </section>
   <section className="slideshow" id="tab-flexbox">
-    <div className = "grid">
+    <h2></h2>
+    <div className = "musicgrid">
             
-            <div className = "info-holder">
-             <div className = "japan">
-
-             </div>
-             <div className = "juice-info"></div>
+            <div className = "japan-card">
+            
             </div>  
-            <div className = "info-holder">
+            <div className = "juice-card">
                 
             </div>
-            <div className = "info-holder">
+            <div className = "bellyache-card">
               
             </div>
-            <div className = "info-holder">
+            <div className = "treasure-card">
               
             </div>
             <div className = "info-holder">
@@ -149,114 +152,7 @@ If you'd like to see us live, After Hours has two major concerts per year, one e
           </div>
 
   </section>
-  <section className="et-slide-repertoire" id="tab-react">
-    <h1 className ="about-heading-text">OUR REPERTOIRE</h1>
-    <h3></h3>
-
-    <div className = "grid">
-      <div className = "album-cover">
-        <div className = "japan">
-        </div>
-        <div className = "juice-info">
-          <p className = "album-heading">LOST IN JAPAN</p>
-          <p className = "album-text">SHAWN MENDES | ARR. REAGAN CASTEEL</p>
-        </div>
-      </div>  
-      <div className = "album-cover">
-      <div className = "juice">
-        </div>
-        <div className = "juice-info">
-          <p className = "album-heading">JUICE</p>
-          <p className = "album-text">LIZZO | ARR. REAGAN CASTEEL</p>
-        </div>
-      </div>
-      <div className = "album-cover">
-      <div className = "bellyache">
-        </div>
-        <div className = "juice-info">
-          <p className = "album-heading">BELLYACHE</p>
-          <p className = "album-text">BILLIE EILISH | ARR. MATT KYONG</p>
-        </div>
-      </div>
-      <div className = "album-cover">
-      <div className = "treasure">
-        </div>
-        <div className = "juice-info">
-          <p className = "album-heading">TREASURE</p>
-          <p className = "album-text">BRUNO MARS | ARR. LUKE NASH</p>
-        </div>
-      </div>
-      <div className = "album-cover">
-      <div className = "more">
-        </div>
-        <div className = "juice-info">
-          <p className = "album-heading">MORE AND MANY MORE</p>
-          <p className = "album-text">LAWRENCE | ARR. REAGAN CASTEEL</p>
-        </div>
-      </div>
-      <div className = "album-cover">
-      <div className = "acid">
-        </div>
-        <div className = "juice-info">
-          <p className = "album-heading">ACID DREAMS</p>
-          <p className = "album-text">MAX | ARR. RYAN RACICOT</p>
-        </div>
-      </div>
-      <div className = "album-cover">
-      <div className = "bestpart">
-        </div>
-        <div className = "juice-info">
-          <p className = "album-heading">BEST PART</p>
-          <p className = "album-text">DANIEL CAESAR | ARR. MATT KYONG</p>
-        </div>
-      </div>
-      <div className = "album-cover">
-      <div className = "cough">
-        </div>
-        <div className = "juice-info">
-          <p className = "album-heading">COUGH SYRUP</p>
-          <p className = "album-text">YOUNG THE GIANT | ARR. BEN RICHARDSON</p>
-        </div>
-      </div>
-      <div className = "album-cover">
-      <div className = "brooklyn">
-        </div>
-        <div className = "juice-info">
-          <p className = "album-heading">BROOKLYN IN THE SUMMER</p>
-          <p className = "album-text">ALOE BLACC | ARR. BEN RICHARDSON</p>
-        </div>
-      </div>
-      <div className = "album-cover">
-      <div className = "soclose">
-        </div>
-        <div className = "juice-info">
-          <p className = "album-heading">SO CLOSE</p>
-          <p className = "album-text">NOTD AND FELIX JAEHN | ARR. BEN RICHARDSON</p>
-        </div>
-      </div>
-      <div className = "album-cover">
-      <div className = "heart">
-        </div>
-        <div className = "juice-info">
-          <p className = "album-heading">HEART SHAPED BOX</p>
-          <p className = "album-text">NIRVANA | ARR. REAGAN CASTEEL</p>
-        </div>
-      </div>
-      <div className = "album-cover">
-      <div className = "dance">
-        </div>
-        <div className = "juice-info">
-          <p className = "album-heading">CAN WE DANCE</p>
-          <p className = "album-text">THE VAMPS | ARR. BEN RICHARDSON</p>
-        </div>
-      </div>
-      
-    </div>
-
-
-
-
-  </section>
+ 
   <section className="et-slide" id="tab-angular">
     <h1>Angular</h1>
     <h3>something about angular</h3>

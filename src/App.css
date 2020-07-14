@@ -18,7 +18,18 @@ text-decoration: none;
   grid-gap: 20px;
   height: 100%;
   width: 100%;
-  padding-top: 5%;
+  padding-top: 15vh;
+  justify-items: center;
+}
+
+.musicgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-template-rows: 1fr;
+  grid-gap: 40px;
+  height: 100%;
+  width: 100%;
+  padding-top: 15vh;
   justify-items: center;
 }
 
@@ -230,215 +241,6 @@ text-decoration: none;
   height: 100%
 }
 
-.grace{
-  background-image: url(./headshots/grace.jpg);
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-  position: relative;
-}
-
-.grace:after{
-  content: "Grace Conheady - '21 | President";
-  align-content: left;
-  font-size: 18px;
-  color: white;
-  position: absolute;
-  width: 100%; height:20%;
-  bottom:0; left:0;
-  background:rgba(0,0,0,0.6);
-  opacity: 0;
-  transition: all 1s;
-  -webkit-transition: all 1s;
-}
-
-.grace:hover:after {
-  opacity: 1;
-}
-
-.grace:before {
-  content: "";
-  display: block;
-  height: 0;
-  width: 0;
-  padding-bottom: calc(4/3 *100%);
-}
-
-.member{
-  background-color: white;
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-}
-
-.member:before {
-  content: "";
-  display: block;
-  height: 0;
-  width: 0;
-  padding-bottom: calc(4/3 *100%);
-}
-
-.grace:hover .overlay {
-  opacity: 1;
-}
-
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: black;
-}
-
-.erin{
-  background-image: url(./headshots/erin.jpg);
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-}
-
-.erin:before {
-  content: "";
-  display: block;
-  height: 0;
-  width: 0;
-  padding-bottom: calc(4/3 *100%);
-}
-
-.ben{
-  background-color: red;
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-}
-
-.ben:before {
-  content: "";
-  display: block;
-  height: 0;
-  width: 0;
-  padding-bottom: calc(4/3 *100%);
-}
-
-.sydney{
-  background-color: red;
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-}
-
-.sydney:before {
-  content: "";
-  display: block;
-  height: 0;
-  width: 0;
-  padding-bottom: calc(4/3 *100%);
-}
-.zoe{
-  background-image: url(./headshots/zoe.jpeg);
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-}
-
-.zoe:before {
-  content: "";
-  display: block;
-  height: 0;
-  width: 0;
-  padding-bottom: calc(4/3 *100%);
-}
-
-.steven{
-  background-image: url(./headshots/steven.jpeg);
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-}
-
-.steven:before {
-  content: "";
-  display: block;
-  height: 0;
-  width: 0;
-  padding-bottom: calc(4/3 *100%);
-  
-}
-
-.emma{
-  background-image: url(./headshots/emma.jpg);
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-}
-
-.emma:before {
-  content: "";
-  display: block;
-  height: 0;
-  width: 0;
-  padding-bottom: calc(4/3 *100%);
-}
-.franklin{
-  background-color: white;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-}
-
-.jack{
-  background-image: url(./headshots/jack.jpeg);
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-}
-
-.jack:before {
-  content: "";
-  display: block;
-  height: 0;
-  width: 0;
-  padding-bottom: calc(4/3 *100%);
-}
-
-.ashwin{
-  background-image: url(./headshots/ashwin.jpg);
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-}
-
-.ashwin:before {
-  content: "";
-  display: block;
-  height: 0;
-  width: 0;
-  padding-bottom: calc(4/3 *100%);
-}
-
-.luke{
-  background-image: url(./headshots/luke.jpeg);
-  height: 100%;
-  width: 100%;
-  background-size: cover;
-}
-
-.luke:before {
-  content: "";
-  display: block;
-  height: 0;
-  width: 0;
-  padding-bottom: calc(4/3 *100%);
-}
-
 .blank{
   background-color: black;
 }
@@ -609,29 +411,7 @@ mark{
   background-size: contain;
 }
 
-.info-holder{
-  background-color: yellow;
-  height: 100%;
-  width: 100%;
-  background-size: cover;
 
-}
-
-.info-holder:before {
-  content: "";
-  display: block;
-  height: 0;
-  width: 0;
-  padding-bottom: calc(3/3 *100%);
-}
-
-.japan{
-  height: 75%;
-  width: 100%;
-  background-image: url(./albumcovers/lostinjapan.jpg);
-  background-size: cover;
-  position: top;
-}
 
 .heart{
   height: 62.5%;
