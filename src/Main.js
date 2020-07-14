@@ -125,28 +125,28 @@ If you'd like to see us live, After Hours has two major concerts per year, one e
             <div className = "treasure-card">
               
             </div>
-            <div className = "info-holder">
+            <div className = "more-card">
               
             </div>
-            <div className = "info-holder">
+            <div className = "acid-card">
               
             </div>
-            <div className = "info-holder">
+            <div className = "bestpart-card">
               
             </div>
-            <div className = "info-holder">
+            <div className = "cough-card">
               
             </div>
-            <div className = "info-holder">
+            <div className = "brookyln-card">
               
             </div>
-            <div className = "info-holder">
+            <div className = "heart-card">
               
             </div>
-            <div className = "info-holder">
+            <div className = "dance-card">
               
             </div>
-            <div className = "info-holder">
+            <div className = "soclose-card">
               
             </div>
           </div>
