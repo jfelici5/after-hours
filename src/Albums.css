@@ -61,3 +61,163 @@
     width: 0;
     padding-bottom: calc(4/3 *100%);
   }
+
+  .more-card{
+    background-image: url("./albumcovers/more.svg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  
+  }
+  
+  .more-card:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    padding-bottom: calc(4/3 *100%);
+  }
+
+  .acid-card{
+    background-image: url("./albumcovers/acid-01.svg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  
+  }
+  
+  .acid-card:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    padding-bottom: calc(4/3 *100%);
+  }
+
+  .bestpart-card{
+    background-image: url("./albumcovers/bestpart-01.svg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  
+  }
+  
+  .bestpart-card:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    padding-bottom: calc(4/3 *100%);
+  }
+
+  .cough-card{
+    background-image: url("./albumcovers/cough-01.svg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  
+  }
+  
+  .cough-card:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    padding-bottom: calc(4/3 *100%);
+  }
+
+  .brookyln-card{
+    background-image: url("./albumcovers/brookyln-01.svg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  
+  }
+  
+  .brooklyn-card:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    padding-bottom: calc(4/3 *100%);
+  }
+
+  .soclose-card{
+    background-image: url("./albumcovers/soclose-01.svg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  
+  }
+  
+  .soclose-card:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    padding-bottom: calc(4/3 *100%);
+  }
+
+  .dance-card{
+    background-image: url("./albumcovers/dance-01.svg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  
+  }
+  
+  .dance-card:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    padding-bottom: calc(4/3 *100%);
+  }
+
+  .heart-card{
+    background-image: url("./albumcovers/heart-01.svg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  
+  }
+  
+  .heart-card:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    padding-bottom: calc(4/3 *100%);
+  }
+
+  
+  
+  .brooklyn{
+    height: 62.5%;
+    width: 100%;
+    background-color: white;
+    background-size: contain;
+  }
+  
+  .soclose{
+    height: 62.5%;
+    width: 100%;
+    background-color: white; 
+    background-size: contain;
+  }
+  
+  .dance{
+    height: 62.5%;
+    width: 100%;
+    background-color: white;  
+    background-size: contain;
+  }
+  
+  
+  .heart{
+    height: 62.5%;
+    width: 100%;
+    background-color: white;  
+    background-size: contain;
+  }
+  

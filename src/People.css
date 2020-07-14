@@ -1,38 +1,20 @@
 @import '~antd/dist/antd.css';
 
 .grace{
-    background-image: url(./headshots/grace.jpg);
+    background-image: url(./headshots/grace-01.svg);
     height: 100%;
     width: 100%;
     background-size: cover;
     position: relative;
   }
   
-  .grace:after{
-    content: "Grace Conheady - '21 | President";
-    align-content: center;
-    text-align: left;
-    font-size: 15px;
-    color: white;
-    position: absolute;
-    width: 100%; height:20%;
-    bottom:0; left:0;
-    background:rgba(0,0,0,0.6);
-    opacity: 0;
-    transition: all 1s;
-    -webkit-transition: all 1s;
-  }
-  
-  .grace:hover:after {
-    opacity: 1;
-  }
   
   .grace:before {
     content: "";
     display: block;
     height: 0;
     width: 0;
-    padding-bottom: calc(4/3 *100%);
+    padding-bottom: calc(4.5/3 *100%);
   }
   
   .member{
@@ -69,7 +51,7 @@
   }
   
   .erin{
-    background-image: url(./headshots/erin.jpg);
+    background-image: url(./headshots/erin-01.svg);
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -80,7 +62,7 @@
     display: block;
     height: 0;
     width: 0;
-    padding-bottom: calc(4/3 *100%);
+    padding-bottom: calc(4.5/3 *100%);
   }
   
   .ben{
@@ -95,7 +77,7 @@
     display: block;
     height: 0;
     width: 0;
-    padding-bottom: calc(4/3 *100%);
+    padding-bottom: calc(4.5/3 *100%);
   }
   
   .sydney{
@@ -110,10 +92,10 @@
     display: block;
     height: 0;
     width: 0;
-    padding-bottom: calc(4/3 *100%);
+    padding-bottom: calc(4.5/3 *100%);
   }
   .zoe{
-    background-image: url(./headshots/zoe.jpeg);
+    background-image: url(./headshots/zoe-01.svg);
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -124,11 +106,11 @@
     display: block;
     height: 0;
     width: 0;
-    padding-bottom: calc(4/3 *100%);
+    padding-bottom: calc(4.5/3 *100%);
   }
   
   .steven{
-    background-image: url(./headshots/steven.jpeg);
+    background-image: url(./headshots/steven-01.svg);
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -139,12 +121,12 @@
     display: block;
     height: 0;
     width: 0;
-    padding-bottom: calc(4/3 *100%);
+    padding-bottom: calc(4.5/3 *100%);
     
   }
   
   .emma{
-    background-image: url(./headshots/emma.jpg);
+    background-image: url(./headshots/emma-01.svg);
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -155,7 +137,7 @@
     display: block;
     height: 0;
     width: 0;
-    padding-bottom: calc(4/3 *100%);
+    padding-bottom: calc(4.5/3 *100%);
   }
   .franklin{
     background-color: white;
@@ -166,7 +148,7 @@
   }
   
   .jack{
-    background-image: url(./headshots/jack.jpeg);
+    background-image: url(./headshots/jack-01.svg);
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -177,11 +159,11 @@
     display: block;
     height: 0;
     width: 0;
-    padding-bottom: calc(4/3 *100%);
+    padding-bottom: calc(4.5/3 *100%);
   }
   
   .ashwin{
-    background-image: url(./headshots/ashwin.jpg);
+    background-image: url(./headshots/ashwin.svg);
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -192,11 +174,11 @@
     display: block;
     height: 0;
     width: 0;
-    padding-bottom: calc(4/3 *100%);
+    padding-bottom: calc(4.5/3 *100%);
   }
   
   .luke{
-    background-image: url(./headshots/luke.jpeg);
+    background-image: url(./headshots/luke-01.svg);
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -207,5 +189,5 @@
     display: block;
     height: 0;
     width: 0;
-    padding-bottom: calc(4/3 *100%);
+    padding-bottom: calc(4.5/3 *100%);
   }
