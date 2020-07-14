@@ -1,0 +1,63 @@
+.japan-card{
+    background-image: url("./albumcovers/japanreal-01.svg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  
+  }
+  
+  .japan-card:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    padding-bottom: calc(4/3 *100%);
+  }
+  
+  .juice-card{
+    background-image: url("./albumcovers/juice-01.svg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  
+  }
+  
+  .juice-card:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    padding-bottom: calc(4/3 *100%);
+  }
+  
+  .bellyache-card{
+    background-image: url("./albumcovers/bellyache-01.svg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  
+  }
+  
+  .bellyache-card:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    padding-bottom: calc(4/3 *100%);
+  }
+  
+  .treasure-card{
+    background-image: url("./albumcovers/treasure-01.svg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  
+  }
+  
+  .treasure-card:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    padding-bottom: calc(4/3 *100%);
+  }
