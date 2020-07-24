@@ -4,9 +4,11 @@ import {Row, Col} from 'antd';
 import './App.css';
 import './People.css';
 import './Albums.css';
-import logo from './imagesmisc/finallogopng.png'
+import logo from './imagesmisc/finallogopng.png';
+import $ from "jquery";
 
 /*C:\Users\jackf\OneDrive\afterhours\public*/
+
 
 const style = {   padding: '10vw 0' };
 const DemoBox = props => <p className={`height-${props.value}`}>{props.children}</p>;
@@ -30,7 +32,7 @@ function Main(){
   <section className = "title-holder" id="home">
   <Row>
       <Col span={24}>
-          <h1 className = "after">After Hours <h3 className = "premiere">Rochester's premiere co-ed a cappella group</h3></h1>
+          <div className = "splitting">After Hours <h3 className = "premiere">Rochester's premiere co-ed a cappella group</h3></div>
            
       </Col>
       
@@ -74,37 +76,82 @@ If you'd like to see us live, After Hours has two major concerts per year, one e
     <div className = "grid">
             
             <div className = "grace">
+              <div className = "overlay">
+                <div className = "text">
+                  <h6 className = "member-title">GRACE CONHEADY '21 | PRESIDENT</h6>
+                </div> 
+              </div>
             </div>
              
             <div className = "ben">
-                
+            <div className = "overlay">
+                <div className = "text">
+                  <h6 className = "member-title">BEN RICHARDSON'21 | MUSIC DIRECTOR</h6>
+                </div> 
+              </div>
             </div>
             <div className = "erin">
-              
+            <div className = "overlay">
+                <div className = "text">
+                  <h6 className = "member-title">ERIN TOOHEY '21 | BUSINESS MANAGER</h6>
+                </div> 
+              </div>
             </div>
             <div className = "sydney">
-              
+            <div className = "overlay">
+                <div className = "text">
+                  <h6 className = "member-title">SYDNEY SISSON '21 | PUBLICITY MANAGER</h6>
+                </div> 
+              </div>
             </div>
             <div className = "steven">
-              
+            <div className = "overlay">
+                <div className = "text">
+                  <h6 className = "member-title">STEVEN LI '23 | ASSISTANT MUSIC DIRECTOR</h6>
+                </div> 
+              </div>
             </div>
             <div className = "zoe">
-              
+            <div className = "overlay">
+                <div className = "text">
+                  <h6 className = "member-title">ZOE HYNES '23 | BOOKING MANAGER</h6>
+                </div> 
+              </div>
             </div>
             <div className = "emma">
-              
+            <div className = "overlay">
+                <div className = "text">
+                  <h6 className = "member-title">EMMA MICHELS '22 | SECRETARY</h6>
+                </div> 
+              </div>
             </div>
             <div className = "ashwin">
-              
+            <div className = "overlay">
+                <div className = "text">
+                  <h6 className = "member-title">ASHWIN MENON '20</h6>
+                </div> 
+              </div>
             </div>
             <div className = "luke">
-              
+            <div className = "overlay">
+                <div className = "text">
+                  <h6 className = "member-title">LUKE NASH '20</h6>
+                </div> 
+              </div>
             </div>
             <div className = "jack">
-              
+            <div className = "overlay">
+                <div className = "text">
+                  <h6 className = "member-title">JACK FELICIANO '23</h6>
+                </div> 
+              </div>
             </div>
             <div className = "franklin">
-              
+            <div className = "overlay">
+                <div className = "text">
+                  <h6 className = "member-title">FRANKLIN HONG '23</h6>
+                </div> 
+              </div>
             </div>
           </div>
 
