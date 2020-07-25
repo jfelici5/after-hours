@@ -4,14 +4,12 @@ html { font-size: calc(1em + 1vw);
         scroll-behavior: smooth}
 
 body {
-  font-family: "Century Gothic", 'Lato', sans-serif;
+  font-family: Helvetica, Arial, sans-serif;;
 }
 
 a {
 text-decoration: none;
 }
-
-
 
 .grid {
   display: grid;
@@ -20,7 +18,6 @@ text-decoration: none;
   grid-gap: 20px;
   height: 100%;
   width: 100%;
-  padding-top: 15vh;
   justify-items: center;
 }
 
@@ -54,14 +51,14 @@ text-decoration: none;
   width: 100%;
   max-width: 7vh;
   height: auto;
-  
 }
 
-
+nav a:hover 
+{ color: rgba(255, 255, 255, 1) !important; }
 
 .et-hero-tabs {
   
-  background-color: black;
+  background-image: url(./imagesmisc/banner.JPG);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -111,37 +108,34 @@ text-decoration: none;
   background: black;
   text-align: center;
   padding: 0 2em;
-  overflow:hidden ;
-  
-  
+  overflow: hidden ;
 }
 
 .et-slide-upcoming{
+  min-height: 70vh;
+  max-height: 100vh;
+  position: relative;
+  background-color:black;
+  background-position: center;
+  text-align: center;
+  padding-top: 10vh;
+}
 
+.upcoming-holder{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url(./imagesmisc/upcoming.JPG);
+  background-size: cover;
+  background-position: 100%;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  justify-content: top;
-  align-items: center;
-  min-height: 20vh;
-  max-height: 75vh;
-  width: 100%;
-  position: relative;
-  background-color: red;
-  background-size: cover;
-  background-position-y: center;
-  text-align: center;
-  padding: 0 2em;
-  padding-bottom: 20%;
-  
 }
 
 .title-holder{
   width: 100%;
   height: 100%;
-  text-align: left;
-  color: white;
-
-
 }
 
 .content-holder{
@@ -177,9 +171,33 @@ text-decoration: none;
   width: 100%;
   height: 70px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  background: black;
+  background: transparent;
   z-index: 10;
-  
+}
+
+nav a.active{
+  font-weight: bold;
+  background-color: yellow;
+}
+nav a:link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  letter-spacing: 0.1rem;
+  transition: all 0.5s ease;
+  font-size: 0.5rem;
+  color: rgba(255, 255, 255, .8);
+}
+
+nav a:visited {
+  color: rgba(255, 255, 255, .3);
+  background-color: maroon; 
+}
+
+.et-hero-tabs-container.scrolled {
+  background-color: black !important;
+  transition: 200ms linear;
 }
 
 .et-hero-tab {
@@ -187,12 +205,12 @@ text-decoration: none;
   justify-content: center;
   align-items: center;
   flex: 1;
-  color: white;
+  color: rgba(255, 255, 255, .4);
   letter-spacing: 0.1rem;
   transition: all 0.5s ease;
   font-size: 0.5rem;
- 
 }
+
 
 .et-hero-tab-image {
   display: flex;
@@ -225,14 +243,6 @@ text-decoration: none;
   background: maroon;
   transition: left 0.3s ease;
 }
-
-@media (min-width: 800px) {
-.et-hero-tabs,
-.et-slide {
- 
-}
-}
-
 
 .gutter-row{
   width: 100%;
@@ -298,17 +308,9 @@ mark{
   font-size: calc(20px + 2vmin);
   color: black;
   justify-items: center;
+  padding-top: 10vh;
+  text-align: center;
 }
-
-.members {
-  background-color: white;
-  min-height: 150vh;
-  width: 100%;
-  font-size: calc(20px + 2vmin);
-  color: white;
-}
-
-
 
 .album-cover{
   background-color: black;
@@ -336,7 +338,6 @@ mark{
   vertical-align: text-top;
 }
 
-
 .about-text{
   color: white;
   width: 80%;
@@ -347,39 +348,7 @@ mark{
   padding-top: 1.5%;
   font-size: 5vh;
   color: white;
-  width: 80% ;
+  width: 100% ;
   font-weight: bold;   
   
-}
-
-.About-us {
-  background-color: black;
-  width: 100%;
-  min-height: 70vh;
-  font-size: calc(35px + 2vmin);
-  color: white;
-  text-align: left;
-}
-
-.Connect {
-  background-color: #2B2D42;
-  min-height: 70vh;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

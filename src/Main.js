@@ -7,38 +7,63 @@ import './Albums.css';
 import logo from './imagesmisc/finallogopng.png';
 import $ from "jquery";
 
-/*C:\Users\jackf\OneDrive\afterhours\public*/
-
-
-const style = {   padding: '10vw 0' };
-const DemoBox = props => <p className={`height-${props.value}`}>{props.children}</p>;
 
 
 function Main(){
+  
+  $(function () {
+    $(document).scroll(function () {
+      var $nav = $(".et-hero-tabs-container");
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+    });
+  });
+
+  $(function(){
+    $('a').click(function(){
+        $('a').removeClass('active');
+        $(this).addClass('active');
+    });
+  })
+
+  $(window).on('scroll', function() {
+    $('.target').each(function() {
+        if($(window).scrollTop() >= $(this).position().top) {
+            var id = $(this).attr('id');
+            $('nav a').removeClass('active');
+            $('nav a[href=#'+ id +']').addClass('active');
+        }
+    });
+});
+
+$(window).on('scroll', function() {
+  $('.target').each(function() {
+      if($(window).scrollTop() >= $(this).offset().top) {
+          var id = $(this).attr('id');
+          $('#nav nav a').removeClass('active');
+          $('#nav nav a[href=#'+ id +']').addClass('active');
+      }
+  });
+});
+
+
 
     return(
 <div>        
-<section className="et-hero-tabs">
-<div className="et-hero-tabs-container">
-    <a className="et-hero-tab" href="#about">ABOUT</a>
-    <a className="et-hero-tab" href="#upcoming">UPCOMING</a>
-    <a className="et-hero-tab" href="#members">MEMBERS</a>
-    <a className="et-hero-tab" href="#home"><img src = {logo} alt = "pleasework" className = "logo-image-tab"/></a>
-    <a className="et-hero-tab" href="#music">MUSIC</a>
-    <a className="et-hero-tab" href="#media">MEDIA</a>
-    <a className="et-hero-tab" href="#bookus">BOOK US</a>
+<section className="et-hero-tabs" id ='#'>
+  
+<nav className="et-hero-tabs-container">
+    <a href="#" class = "active">HOME</a>
+    <a href="#about" >ABOUT</a>
+    <a href="#upcoming">UPCOMING</a>
+    <a href="#members">MEMBERS</a>
+    <a href="#"><img src = {logo} alt = "pleasework" className = "logo-image-tab"/></a>
+    <a href="#music">MUSIC</a>
+    <a href="#media">MEDIA</a>
+    <a href="#gallery">GALLERY</a>
+    <a href="#bookus">BOOK US</a>
     <span className="et-hero-tab-slider"></span>
-  </div>
+  </nav>
   <section className = "title-holder" id="home">
-  <Row>
-      <Col span={24}>
-          <div className = "splitting">After Hours <h3 className = "premiere">Rochester's premiere co-ed a cappella group</h3></div>
-           
-      </Col>
-      
-    </Row>
-  
-  
   
   </section>
   
@@ -62,100 +87,99 @@ If you'd like to see us live, After Hours has two major concerts per year, one e
   </div>
   </main>
   <section className="et-slide-upcoming" id="upcoming">
+    <div className = "upcoming-holder">
     <h1 className = "about-heading-text">UPCOMING SHOWS</h1>
     <h3 className = "about-text">
       No upcoming shows.
-</h3>
+    </h3>
+    </div>
   </section>
   <main className="et-main">
   <div className ="content-holder">
   <section className="slideshow" id="members">
-    <h2>
+    <h1 className = "about-heading-text">
       MEET US
-    </h2>
-    <div className = "grid">
-            
-            <div className = "grace">
-              <div className = "overlay">
-                <div className = "text">
-                  <h6 className = "member-title">GRACE CONHEADY '21 | PRESIDENT</h6>
-                </div> 
-              </div>
-            </div>
-             
-            <div className = "ben">
-            <div className = "overlay">
-                <div className = "text">
-                  <h6 className = "member-title">BEN RICHARDSON'21 | MUSIC DIRECTOR</h6>
-                </div> 
-              </div>
-            </div>
-            <div className = "erin">
-            <div className = "overlay">
-                <div className = "text">
-                  <h6 className = "member-title">ERIN TOOHEY '21 | BUSINESS MANAGER</h6>
-                </div> 
-              </div>
-            </div>
-            <div className = "sydney">
-            <div className = "overlay">
-                <div className = "text">
-                  <h6 className = "member-title">SYDNEY SISSON '21 | PUBLICITY MANAGER</h6>
-                </div> 
-              </div>
-            </div>
-            <div className = "steven">
-            <div className = "overlay">
-                <div className = "text">
-                  <h6 className = "member-title">STEVEN LI '23 | ASSISTANT MUSIC DIRECTOR</h6>
-                </div> 
-              </div>
-            </div>
-            <div className = "zoe">
-            <div className = "overlay">
-                <div className = "text">
-                  <h6 className = "member-title">ZOE HYNES '23 | BOOKING MANAGER</h6>
-                </div> 
-              </div>
-            </div>
-            <div className = "emma">
-            <div className = "overlay">
-                <div className = "text">
-                  <h6 className = "member-title">EMMA MICHELS '22 | SECRETARY</h6>
-                </div> 
-              </div>
-            </div>
-            <div className = "ashwin">
-            <div className = "overlay">
-                <div className = "text">
-                  <h6 className = "member-title">ASHWIN MENON '20</h6>
-                </div> 
-              </div>
-            </div>
-            <div className = "luke">
-            <div className = "overlay">
-                <div className = "text">
-                  <h6 className = "member-title">LUKE NASH '20</h6>
-                </div> 
-              </div>
-            </div>
-            <div className = "jack">
-            <div className = "overlay">
-                <div className = "text">
-                  <h6 className = "member-title">JACK FELICIANO '23</h6>
-                </div> 
-              </div>
-            </div>
-            <div className = "franklin">
-            <div className = "overlay">
-                <div className = "text">
-                  <h6 className = "member-title">FRANKLIN HONG '23</h6>
-                </div> 
-              </div>
+    </h1>
+      <div className = "grid">     
+        <div className = "grace">
+          <div className = "overlay">
+            <div className = "text">
+              <h6 className = "member-title">GRACE CONHEADY '21 | <em>PRESIDENT</em></h6>
+            </div> 
+          </div>
+        </div>     
+        <div className = "ben">
+          <div className = "overlay">
+            <div className = "text">
+              <h6 className = "member-title">BEN RICHARDSON'21 | <em>MUSIC DIRECTOR</em></h6>
+            </div> 
+          </div>
+        </div>
+        <div className = "erin">
+          <div className = "overlay">
+            <div className = "text">
+              <h6 className = "member-title">ERIN TOOHEY '21 | <em>BUSINESS MANAGER</em></h6>
+            </div> 
+          </div>
+        </div>
+        <div className = "sydney">
+        <div className = "overlay">
+            <div className = "text">
+              <h6 className = "member-title">SYDNEY SISSON '21 | <em>PUBLICITY MANAGER</em></h6>
+            </div> 
+          </div>
+        </div>
+        <div className = "steven">
+          <div className = "overlay">
+            <div className = "text">
+              <h6 className = "member-title">STEVEN LI '23 | <em>ASSISTANT MUSIC DIRECTOR</em></h6>
+            </div> 
+          </div>
+        </div>
+          <div className = "zoe">
+          <div className = "overlay">
+              <div className = "text">
+                <h6 className = "member-title">ZOE HYNES '23 | <em>BOOKING MANAGER</em></h6>
+              </div> 
             </div>
           </div>
-
-  </section>
+          <div className = "emma">
+          <div className = "overlay">
+              <div className = "text">
+                <h6 className = "member-title">EMMA MICHELS '22 | <em>SECRETARY</em></h6>
+              </div> 
+            </div>
+          </div>
+          <div className = "ashwin">
+            <div className = "overlay">
+              <div className = "text">
+                <h6 className = "member-title">ASHWIN MENON '20</h6>
+              </div> 
+            </div>
+          </div>
+          <div className = "luke">
+            <div className = "overlay">
+              <div className = "text">
+                <h6 className = "member-title">LUKE NASH '20</h6>
+              </div> 
+            </div>
+          </div>
+          <div className = "jack">
+            <div className = "overlay">
+              <div className = "text">
+                <h6 className = "member-title">JACK FELICIANO '23</h6>
+              </div> 
+            </div>
+          </div>
+          <div className = "sydney">
+            <div className = "overlay">
+              <div className = "text">
+                <h6 className = "member-title">SYDNEY SISSON '21 | PUBLICITY MANAGER</h6>
+              </div> 
+            </div>
+          </div>
+        </div>
+        </section>
   <section className="slideshow" id="tab-flexbox">
     <h2></h2>
     <div className = "musicgrid">
@@ -200,11 +224,11 @@ If you'd like to see us live, After Hours has two major concerts per year, one e
 
   </section>
  
-  <section className="et-slide" id="tab-angular">
+  <section className="et-slide" id="music">
     <h1>Angular</h1>
     <h3>something about angular</h3>
   </section>
-  <section className="et-slide" id="tab-other">
+  <section className="et-slide" id="media">
     <h1>Other</h1>
     <h3>something about other</h3>
   </section>
