@@ -1,7 +1,7 @@
 @import '~antd/dist/antd.css';
 
   .grace{
-    background-image: url(./headshots/grace.jpg);
+    background-image: url(../headshots/grace.jpg);
     background-position: center;
     height: 100%;
     width: 100%;
@@ -44,10 +44,6 @@
     font-weight: bold;
   }
 
-  .member-position{
-
-  }
-
   .text {
     color: white;
     font-size: 20px;
@@ -61,7 +57,7 @@
   }
   
   .erin{
-    background-image: url(./headshots/erin.jpg);
+    background-image: url(../headshots/erin.jpg);
     background-position: center;
     height: 100%;
     width: 100%;
@@ -100,7 +96,7 @@
   }
   
   .sydney{
-    background-image: url(./headshots/sydney.jpeg);
+    background-image: url(../headshots/sydney.jpeg);
     background-position: center;
     height: 100%;
     width: 100%;
@@ -119,7 +115,7 @@
     padding-bottom: calc(4.5/3 *100%);
   }
   .zoe{
-    background-image: url(./headshots/zoe.jpg);
+    background-image: url(../headshots/zoe.jpg);
     background-position: center;
     height: 100%;
     width: 100%;
@@ -139,7 +135,7 @@
   }
   
   .steven{
-    background-image: url(./headshots/steven.jpeg);
+    background-image: url(../headshots/steven.jpeg);
     background-position: center;
     height: 100%;
     width: 100%;
@@ -160,7 +156,7 @@
   }
   
   .emma{
-    background-image: url(./headshots/emma.jpg);
+    background-image: url(../headshots/emma.jpg);
     background-position: center;
     height: 100%;
     width: 100%;
@@ -191,7 +187,7 @@
   }
   
   .jack{
-    background-image: url(./headshots/jack.jpg);
+    background-image: url(../headshots/jack.jpg);
     background-position: center;
     height: 100%;
     width: 100%;
@@ -211,7 +207,7 @@
   }
   
   .ashwin{
-    background-image: url(./headshots/ashwin.jpg);
+    background-image: url(../headshots/ashwin.jpg);
     background-image: center;
     height: 100%;
     width: 100%;
@@ -231,7 +227,7 @@
   }
   
   .luke{
-    background-image: url(./headshots/luke.jpeg);
+    background-image: url(../headshots/luke.jpeg);
     background-position: center;
     height: 100%;
     width: 100%;

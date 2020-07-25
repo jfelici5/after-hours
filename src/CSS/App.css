@@ -58,7 +58,7 @@ nav a:hover
 
 .et-hero-tabs {
   
-  background-image: url(./imagesmisc/banner.JPG);
+  background-image: url(../imagesmisc/banner.JPG);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -68,6 +68,7 @@ nav a:hover
   position: relative;
   text-align: center;
   padding: 0 2em;
+  
 }
 
 .et-slide{
@@ -125,7 +126,7 @@ nav a:hover
   width: 100%;
   height: 100%;
   position: absolute;
-  background-image: url(./imagesmisc/upcoming.JPG);
+  background-image: url(../imagesmisc/upcoming.JPG);
   background-size: cover;
   background-position: 100%;
   align-items: center;
@@ -197,6 +198,7 @@ nav a:visited {
 
 .et-hero-tabs-container.scrolled {
   background-color: black !important;
+  height: 5vh;
   transition: 200ms linear;
 }
 
@@ -233,15 +235,6 @@ nav a:visited {
   letter-spacing: 0.1rem;
   transition: all 0.5s ease;
   font-size: 0.8rem;
-}
-
-.et-hero-tab-slider {
-  position: absolute;
-  bottom: 0;
-  width: 0;
-  height: 6px;
-  background: maroon;
-  transition: left 0.3s ease;
 }
 
 .gutter-row{
@@ -341,7 +334,7 @@ mark{
 .about-text{
   color: white;
   width: 80%;
-  padding-bottom: 20%;
+  padding-bottom: 5%;
 }
 
 .about-heading-text{

@@ -1,5 +1,5 @@
 .japan-card{
-    background-image: url("./albumcovers/japanreal-01.svg");
+    background-image: url("../albumcovers/japanreal-01.svg");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -15,7 +15,7 @@
   }
   
   .juice-card{
-    background-image: url("./albumcovers/juice-01.svg");
+    background-image: url("../albumcovers/juice-01.svg");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -31,7 +31,7 @@
   }
   
   .bellyache-card{
-    background-image: url("./albumcovers/bellyache-01.svg");
+    background-image: url("../albumcovers/bellyache-01.svg");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -47,7 +47,7 @@
   }
   
   .treasure-card{
-    background-image: url("./albumcovers/treasure-01.svg");
+    background-image: url("../albumcovers/treasure-01.svg");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -63,7 +63,7 @@
   }
 
   .more-card{
-    background-image: url("./albumcovers/more.svg");
+    background-image: url("../albumcovers/more.svg");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -79,7 +79,7 @@
   }
 
   .acid-card{
-    background-image: url("./albumcovers/acid-01.svg");
+    background-image: url("../albumcovers/acid-01.svg");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -95,7 +95,7 @@
   }
 
   .bestpart-card{
-    background-image: url("./albumcovers/bestpart-01.svg");
+    background-image: url("../albumcovers/bestpart-01.svg");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -111,7 +111,7 @@
   }
 
   .cough-card{
-    background-image: url("./albumcovers/cough-01.svg");
+    background-image: url("../albumcovers/cough-01.svg");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -127,7 +127,7 @@
   }
 
   .brookyln-card{
-    background-image: url("./albumcovers/brookyln-01.svg");
+    background-image: url("../albumcovers/brookyln-01.svg");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -143,7 +143,7 @@
   }
 
   .soclose-card{
-    background-image: url("./albumcovers/soclose-01.svg");
+    background-image: url("../albumcovers/soclose-01.svg");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -159,7 +159,7 @@
   }
 
   .dance-card{
-    background-image: url("./albumcovers/dance-01.svg");
+    background-image: url("../albumcovers/dance-01.svg");
     height: 100%;
     width: 100%;
     background-size: cover;
@@ -175,7 +175,7 @@
   }
 
   .heart-card{
-    background-image: url("./albumcovers/heart-01.svg");
+    background-image: url("../albumcovers/heart-01.svg");
     height: 100%;
     width: 100%;
     background-size: cover;
