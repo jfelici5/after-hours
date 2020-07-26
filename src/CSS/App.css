@@ -11,14 +11,15 @@ a {
 text-decoration: none;
 }
 
-.grid {
+.grid-top {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(1px, 1fr));
   grid-template-rows: 1fr;
   grid-gap: 20px;
   height: 100%;
   width: 100%;
   justify-items: center;
+  padding-bottom: 20px;
 }
 
 .musicgrid {
@@ -47,7 +48,10 @@ text-decoration: none;
 
 .logo-image-tab{
 
-  width: 100%;
+  width: 100%;  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: 7vh;
   height: auto;
 }
@@ -82,6 +86,7 @@ nav a:hover
   text-align: center;
   padding: 0 2em;
   overflow: auto;
+  padding-top: 5vh
 }
 
 .et-slide-about{
@@ -141,7 +146,7 @@ nav a:hover
 
 .content-holder{
   display: grid;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   background-color: black;
 }
@@ -174,6 +179,21 @@ nav a:hover
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   background: transparent;
   z-index: 10;
+  margin: 0 auto;
+}
+
+.container-holder{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 70px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  background: black;
+  z-index: 10;
 }
 
 nav a.active{
@@ -199,6 +219,14 @@ nav a:visited {
 .et-hero-tabs-container.scrolled {
   background-color: black !important;
   height: 5vh;
+  width: 70%;
+  transition: 200ms linear;
+}
+
+.container-holder.scrolled {
+  background-color: black !important;
+  height: 5vh;
+  width: 100%;
   transition: 200ms linear;
 }
 

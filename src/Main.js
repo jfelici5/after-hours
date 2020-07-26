@@ -17,7 +17,9 @@ function Main(){
   $(function () {
     $(document).scroll(function () {
       var $nav = $(".et-hero-tabs-container");
+      var $nav2 = $(".container-holder");
       $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      $nav2.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
   });
 
@@ -31,6 +33,7 @@ function Main(){
     return(
 <div>        
 <section className="et-hero-tabs" id ='#'>
+  <nav className = "container-holder" id = "top-menu">
   <nav className="et-hero-tabs-container" id = "top-menu">
     <a href="#" className = "active">HOME</a>
     <a href="#about" >ABOUT</a>
@@ -40,7 +43,8 @@ function Main(){
     <a href="#media">MEDIA</a>
     <a href="#gallery">GALLERY</a>
     <a href="#bookus">BOOK US</a>
-    </nav>
+  </nav>
+  </nav>
     <div className = "wrapper" id="#home">
       <div data-text className = "maroon">
       </div>
@@ -109,7 +113,7 @@ function Main(){
     <h1 className = "about-heading-text">
       MEET US
     </h1>
-      <div className = "grid">     
+      <div className = "grid-top">     
         <div className = "grace">
           <div className = "overlay">
             <div className = "text">
@@ -124,6 +128,8 @@ function Main(){
             </div> 
           </div>
         </div>
+      </div>
+      <div className = "grid-top">
         <div className = "erin">
           <div className = "overlay">
             <div className = "text">
@@ -145,6 +151,8 @@ function Main(){
             </div> 
           </div>
         </div>
+      </div>
+      <div className = "grid-top">
           <div className = "zoe">
           <div className = "overlay">
               <div className = "text">
@@ -159,6 +167,8 @@ function Main(){
               </div> 
             </div>
           </div>
+      </div>
+        <div className = "grid-top">
           <div className = "ashwin">
             <div className = "overlay">
               <div className = "text">
@@ -188,7 +198,6 @@ function Main(){
               </div> 
             </div>
           </div>
-          
         </div>
         </section>
   <section className="slideshow" id="music">
@@ -286,14 +295,23 @@ function Main(){
   </section>
  
   <section className="et-slide" id="media">
-    <div className = "videogrid">
-    <div className = "more-video">
-      <iframe title = "More and Many More" className = "responsive-iframe"  src="https://www.youtube.com/embed/SCIR0hBggkE?start=71" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen = "true"></iframe>
-    </div>
-    <div className = "more-video">
-    <iframe title = "Treasure" className = "responsive-iframe" src="https://www.youtube.com/embed/9zNOZoHwVP8?start=34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>    
-    </div>
-    </div>
+  <h1 className = "about-heading-text">
+      MEDIA
+    </h1>
+      <div className = "videogrid-2">
+        <div className = "japan-video">
+          <iframe title = "Treasure" className = "responsive-iframe" src="https://www.youtube.com/embed/9zNOZoHwVP8?start=34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>    
+        </div>  
+      </div>
+      <div className = "videogrid">
+        <div className = "more-video">
+          <iframe title = "More and Many More" className = "responsive-iframe"  src="https://www.youtube.com/embed/SCIR0hBggkE?start=71" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen = "true"></iframe>
+      </div>
+        <div className = "more-video">
+          <iframe title = "Lost in Japan" className = "responsive-iframe" src="https://www.youtube.com/embed/7JACC2Bb6eU?start=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen = "true"></iframe>
+          
+        </div>
+      </div>
     
   </section>
   <section className="et-slide" id="">
