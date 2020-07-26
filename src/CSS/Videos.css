@@ -1,0 +1,32 @@
+
+
+.videogrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+    background-color: black;
+  }
+
+.more-video{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: calc(9/16 *100%);
+    
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+

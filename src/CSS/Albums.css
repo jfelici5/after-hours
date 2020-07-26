@@ -1,3 +1,22 @@
+.overlay-albums {
+  position: static;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 15%;
+  width: 100%;
+  opacity: 1;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-0%, -150%);
+  transition: .5s ease;
+  background-color: rgba(0,0,0,1);
+}
+
+.album-title{
+  color: white;
+}
 .japan-card{
     background-image: url("../albumcovers/japanreal-01.svg");
     height: 100%;
@@ -134,7 +153,7 @@
   
   }
   
-  .brooklyn-card:before {
+  .brookyln-card:before {
     content: "";
     display: block;
     height: 0;
@@ -189,35 +208,3 @@
     width: 0;
     padding-bottom: calc(4/3 *100%);
   }
-
-  
-  
-  .brooklyn{
-    height: 62.5%;
-    width: 100%;
-    background-color: white;
-    background-size: contain;
-  }
-  
-  .soclose{
-    height: 62.5%;
-    width: 100%;
-    background-color: white; 
-    background-size: contain;
-  }
-  
-  .dance{
-    height: 62.5%;
-    width: 100%;
-    background-color: white;  
-    background-size: contain;
-  }
-  
-  
-  .heart{
-    height: 62.5%;
-    width: 100%;
-    background-color: white;  
-    background-size: contain;
-  }
-  

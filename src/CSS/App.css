@@ -28,7 +28,6 @@ text-decoration: none;
   grid-gap: 40px;
   height: 100%;
   width: 100%;
-  padding-top: 15vh;
   justify-items: center;
 }
 
@@ -79,9 +78,10 @@ nav a:hover
   align-items: center;
   min-height: 100vh;
   position: relative;
-  background: #eee;
+  background: black;
   text-align: center;
   padding: 0 2em;
+  overflow: auto;
 }
 
 .et-slide-about{
@@ -113,13 +113,13 @@ nav a:hover
 }
 
 .et-slide-upcoming{
-  min-height: 70vh;
+  min-height: 90vh;
   max-height: 100vh;
   position: relative;
   background-color:black;
   background-position: center;
   text-align: center;
-  padding-top: 10vh;
+  padding-top: 5vh;
 }
 
 .upcoming-holder{
@@ -128,7 +128,7 @@ nav a:hover
   position: absolute;
   background-image: url(../imagesmisc/upcoming.JPG);
   background-size: cover;
-  background-position: 100%;
+  background-position: top;
   align-items: center;
   display: flex;
   flex-direction: column;

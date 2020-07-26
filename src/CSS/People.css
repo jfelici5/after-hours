@@ -103,6 +103,21 @@
     background-size: cover;
   }
 
+  .retired{
+    background-color:red;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .retired:before {
+    content: "";
+    display: block;
+    height: 0;
+    width: 0;
+    padding-bottom: calc(4.5/3 *100%);
+  }
+
   .sydney:hover .overlay {
     opacity: 1;
   }
