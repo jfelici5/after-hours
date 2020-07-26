@@ -6,6 +6,7 @@ import './CSS/People.css';
 import './CSS/Albums.css';
 import './CSS/Styles.css';
 import './CSS/images.css';
+import './CSS/Videos.css'
 import logo from './imagesmisc/finallogopng.png';
 import $ from "jquery";
 
@@ -165,6 +166,7 @@ function Main(){
               </div> 
             </div>
           </div>
+        
           <div className = "luke">
             <div className = "overlay">
               <div className = "text">
@@ -186,57 +188,115 @@ function Main(){
               </div> 
             </div>
           </div>
+          
         </div>
         </section>
-  <section className="slideshow" id="tab-flexbox">
-    <h2></h2>
+  <section className="slideshow" id="music">
+  <h1 className = "about-heading-text">
+      OUR REPERTOIRE
+    </h1>
     <div className = "musicgrid">
             
             <div className = "japan-card">
-            
+            <div className = "overlay-albums">
+              <div className = "text">
+                <h6 className = "album-title"><strong>LOST IN JAPAN | SHAWN MENDES </strong><br></br><em>ARR. REAGAN CASTEEL</em></h6>
+              </div>
+            </div>
             </div>  
             <div className = "juice-card">
-                
+            <div className = "overlay-albums">
+              <div className = "text">
+                <h6 className = "album-title"><strong>JUICE | LIZZO </strong><br></br><em>ARR. REAGAN CASTEEL</em></h6>
+              </div>
+            </div>  
             </div>
             <div className = "bellyache-card">
-              
+            <div className = "overlay-albums">
+              <div className = "text">
+                <h6 className = "album-title"><strong>BELLYACHE | BILLIE EILISH </strong><br></br><em>ARR. MATT KYONG</em></h6>
+              </div>
+            </div>
             </div>
             <div className = "treasure-card">
-              
+            <div className = "overlay-albums">
+              <div className = "text">
+                <h6 className = "album-title"><strong>TREASURE| BRUNO MARS </strong><br></br><em>ARR. LUKE NASH</em></h6>
+              </div>
+            </div>
             </div>
             <div className = "more-card">
-              
+            <div className = "overlay-albums">
+              <div className = "text">
+                <h6 className = "album-title"><strong>MORE AND MANY MORE | LAWRENCE </strong><br></br><em>ARR. REAGAN CASTEEL</em></h6>
+              </div>
+            </div>
             </div>
             <div className = "acid-card">
-              
+            <div className = "overlay-albums">
+              <div className = "text">
+                <h6 className = "album-title"><strong>ACID DREAMS | MAX </strong><br></br><em>ARR. RYAN RACICOT</em></h6>
+              </div>
+            </div>
             </div>
             <div className = "bestpart-card">
-              
+            <div className = "overlay-albums">
+              <div className = "text">
+                <h6 className = "album-title"><strong>BEST PART | DANIEL CAESAR </strong><br></br><em>ARR. MATT KYONG</em></h6>
+              </div>
+            </div>
             </div>
             <div className = "cough-card">
-              
+            <div className = "overlay-albums">
+              <div className = "text">
+                <h6 className = "album-title"><strong>COUGH SYRUP | YOUNG THE GIANT </strong><br></br><em>ARR. BEN RICHARDSON</em></h6>
+              </div>
+            </div>
             </div>
             <div className = "brookyln-card">
-              
+            <div className = "overlay-albums">
+              <div className = "text">
+                <h6 className = "album-title"><strong>BROOKLYN IN THE SUMMER | ALOE BLACC </strong><br></br><em>ARR. BEN RICHARDSON</em></h6>
+              </div>
+            </div>
             </div>
             <div className = "heart-card">
-              
+            <div className = "overlay-albums">
+              <div className = "text">
+                <h6 className = "album-title"><strong>HEART SHAPED BOX | NIRVANA </strong><br></br><em>ARR. REAGAN CASTEEL</em></h6>
+              </div>
+            </div>
             </div>
             <div className = "dance-card">
-              
+            <div className = "overlay-albums">
+              <div className = "text">
+                <h6 className = "album-title"><strong>CAN WE DANCE | THE VAMPS </strong><br></br><em>ARR. BEN RICHARDSON</em></h6>
+              </div>
+            </div>
             </div>
             <div className = "soclose-card">
-              
+            <div className = "overlay-albums">
+              <div className = "text">
+                <h6 className = "album-title"><strong>SO CLOSE | FELIX JAEHN </strong><br></br><em>ARR. BEN RICHARDSON</em></h6>
+              </div>
+            </div>
             </div>
           </div>
 
   </section>
  
-  <section className="et-slide" id="music">
-    <h1>Angular</h1>
-    <h3>something about angular</h3>
-  </section>
   <section className="et-slide" id="media">
+    <div className = "videogrid">
+    <div className = "more-video">
+      <iframe title = "More and Many More" className = "responsive-iframe"  src="https://www.youtube.com/embed/SCIR0hBggkE?start=71" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen = "true"></iframe>
+    </div>
+    <div className = "more-video">
+    <iframe title = "Treasure" className = "responsive-iframe" src="https://www.youtube.com/embed/9zNOZoHwVP8?start=34" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="true"></iframe>    
+    </div>
+    </div>
+    
+  </section>
+  <section className="et-slide" id="">
     <h1>Other</h1>
     <h3>something about other</h3>
   </section>
