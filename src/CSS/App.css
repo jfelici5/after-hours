@@ -214,6 +214,17 @@ mark{
 
 .slideshow {
   background-color: black;
+  min-height: 5vh;
+  width: 100%;
+  font-size: calc(20px + 2vmin);
+  color: black;
+  justify-items: center;
+  padding-top: 5vh;
+  text-align: center;
+}
+
+.panda {
+  background-color: black;
   min-height: 50vh;
   width: 100%;
   font-size: calc(20px + 2vmin);
