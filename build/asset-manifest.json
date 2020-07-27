@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/jfelici5.github.io/afterhours/static/css/main.48d31000.chunk.css",
-    "main.js": "/jfelici5.github.io/afterhours/static/js/main.a0b08e70.chunk.js",
-    "main.js.map": "/jfelici5.github.io/afterhours/static/js/main.a0b08e70.chunk.js.map",
-    "runtime-main.js": "/jfelici5.github.io/afterhours/static/js/runtime-main.46c4376a.js",
-    "runtime-main.js.map": "/jfelici5.github.io/afterhours/static/js/runtime-main.46c4376a.js.map",
-    "static/css/2.c27a359e.chunk.css": "/jfelici5.github.io/afterhours/static/css/2.c27a359e.chunk.css",
-    "static/js/2.d0a10b57.chunk.js": "/jfelici5.github.io/afterhours/static/js/2.d0a10b57.chunk.js",
-    "static/js/2.d0a10b57.chunk.js.map": "/jfelici5.github.io/afterhours/static/js/2.d0a10b57.chunk.js.map",
-    "index.html": "/jfelici5.github.io/afterhours/index.html",
-    "precache-manifest.29d267d8989362bce1a685b6f8c62a99.js": "/jfelici5.github.io/afterhours/precache-manifest.29d267d8989362bce1a685b6f8c62a99.js",
-    "service-worker.js": "/jfelici5.github.io/afterhours/service-worker.js",
-    "static/css/2.c27a359e.chunk.css.map": "/jfelici5.github.io/afterhours/static/css/2.c27a359e.chunk.css.map",
-    "static/css/main.48d31000.chunk.css.map": "/jfelici5.github.io/afterhours/static/css/main.48d31000.chunk.css.map",
-    "static/js/2.d0a10b57.chunk.js.LICENSE.txt": "/jfelici5.github.io/afterhours/static/js/2.d0a10b57.chunk.js.LICENSE.txt",
-    "static/media/Albums.css": "/jfelici5.github.io/afterhours/static/media/treasure-01.ea98352b.svg",
-    "static/media/People.css": "/jfelici5.github.io/afterhours/static/media/zoe.042c0dc8.jpeg",
-    "static/media/App.css": "/jfelici5.github.io/afterhours/static/media/upcoming.f728b337.JPG",
-    "static/media/images.css": "/jfelici5.github.io/afterhours/static/media/zoe-emma.f93439e7.jpg",
-    "static/media/finallogopng.png": "/jfelici5.github.io/afterhours/static/media/finallogopng.34e9a5ba.png"
+    "main.css": "/urafterhours.com/static/css/main.443688c8.chunk.css",
+    "main.js": "/urafterhours.com/static/js/main.1ad9dba1.chunk.js",
+    "main.js.map": "/urafterhours.com/static/js/main.1ad9dba1.chunk.js.map",
+    "runtime-main.js": "/urafterhours.com/static/js/runtime-main.1c4d745d.js",
+    "runtime-main.js.map": "/urafterhours.com/static/js/runtime-main.1c4d745d.js.map",
+    "static/css/2.c27a359e.chunk.css": "/urafterhours.com/static/css/2.c27a359e.chunk.css",
+    "static/js/2.d0a10b57.chunk.js": "/urafterhours.com/static/js/2.d0a10b57.chunk.js",
+    "static/js/2.d0a10b57.chunk.js.map": "/urafterhours.com/static/js/2.d0a10b57.chunk.js.map",
+    "index.html": "/urafterhours.com/index.html",
+    "precache-manifest.dc2cc70de09cf999854050b595266b24.js": "/urafterhours.com/precache-manifest.dc2cc70de09cf999854050b595266b24.js",
+    "service-worker.js": "/urafterhours.com/service-worker.js",
+    "static/css/2.c27a359e.chunk.css.map": "/urafterhours.com/static/css/2.c27a359e.chunk.css.map",
+    "static/css/main.443688c8.chunk.css.map": "/urafterhours.com/static/css/main.443688c8.chunk.css.map",
+    "static/js/2.d0a10b57.chunk.js.LICENSE.txt": "/urafterhours.com/static/js/2.d0a10b57.chunk.js.LICENSE.txt",
+    "static/media/Albums.css": "/urafterhours.com/static/media/treasure-01.ea98352b.svg",
+    "static/media/People.css": "/urafterhours.com/static/media/zoe.042c0dc8.jpeg",
+    "static/media/App.css": "/urafterhours.com/static/media/upcoming.f728b337.JPG",
+    "static/media/images.css": "/urafterhours.com/static/media/zoe-emma.f93439e7.jpg",
+    "static/media/finallogopng.png": "/urafterhours.com/static/media/finallogopng.34e9a5ba.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.46c4376a.js",
+    "static/js/runtime-main.1c4d745d.js",
     "static/css/2.c27a359e.chunk.css",
     "static/js/2.d0a10b57.chunk.js",
-    "static/css/main.48d31000.chunk.css",
-    "static/js/main.a0b08e70.chunk.js"
+    "static/css/main.443688c8.chunk.css",
+    "static/js/main.1ad9dba1.chunk.js"
   ]
 }
