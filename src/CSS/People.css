@@ -29,7 +29,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 32%;
+    height: 34%;
     width: 100%;
     opacity: 0;
     overflow-y: auto;
@@ -43,7 +43,7 @@
 
 
   .overlay-two {
-    position: static;
+    position: relative;
     top: 0;
     bottom: 0;
     left: 0;
@@ -59,6 +59,26 @@
     transition: .5s ease;
     background-color: rgba(0,0,0,.8);
   }
+
+  @media only screen and (max-width: 750px){
+  .overlay-two {
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 34%;
+    width: 100%;
+    opacity: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-0%, -99%);
+    transition: .5s ease;
+    background-color: rgba(0,0,0,.8);
+  }
+}
   .member-title{
     font-size: 15px;
     color: white;
