@@ -103,7 +103,7 @@ nav a:hover
 }
 
 .et-slide-upcoming{
-  min-height: 90vh;
+  min-height: 100vh;
   max-height: 100vh;
   position: relative;
   background-color:black;

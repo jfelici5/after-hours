@@ -30,8 +30,22 @@ function Main(){
     });
   })
 
+  $(window).scroll(function() {
+		var scrollDistance = $(window).scrollTop();
+
+		$('.scroller').each(function(i) {
+				if ($(this).position().top <= scrollDistance) {
+						$('a').removeClass('active');
+						$('a').eq(i).addClass('active');
+				}
+		});
+}).scroll();
+
+
+
     return(
-<div>        
+<div>
+<div className = "scroller">          
 <section className="et-hero-tabs" id ='#'>
   <nav className = "container-holder" id = "top-menu">
   <nav className="et-hero-tabs-container" id = "top-menu">
@@ -45,7 +59,7 @@ function Main(){
     <a href="#bookus">BOOK US</a>
   </nav>
   </nav>
-    <div className = "wrapper" id="#home">
+    <div className = "wrapper">
       <div data-text className = "maroon">
       </div>
       <div className="item">Rochester's Premiere CO-ED A CAPELLA GROUP</div>
@@ -55,9 +69,11 @@ function Main(){
       <h2 className = "johndoe">We are After Hours.</h2>
     </div>  
 </section>
+</div>
 
 <main className="et-main">
   <div className ="content-holder">
+  <div className = "scroller" id = "about">
   <section className="et-slide-about" id="about">
     <h1><img src = {logo} alt = "pleasework" className = "logo-image"/></h1>
     <h1 className = "about-heading-text">ABOUT AFTER HOURS</h1>
@@ -82,7 +98,9 @@ function Main(){
     </div>
   </section>
   </div>
+  </div>
   </main>
+  <div className = "scroller" id = "upcoming">
   <section className="et-slide-upcoming" id="upcoming">
     <div className = "upcoming-holder">
     <h1 className = "about-heading-text">UPCOMING SHOWS</h1>
@@ -91,8 +109,10 @@ function Main(){
     </h3>
     </div>
   </section>
+  </div>
   <main className="et-main">
   <div className ="content-holder">
+  <div className = "scroller" id = "members">
   <section className="slideshow" id="members">
     <h1 className = "about-heading-text">
       MEET US
@@ -260,6 +280,8 @@ function Main(){
               
         </div>
         </section>
+        </div>
+        <div className = "scroller" id = "music">
   <section className="slideshow" id="music">
   <h1 className = "about-heading-text">
       OUR REPERTOIRE
@@ -353,7 +375,8 @@ function Main(){
           </div>
 
   </section>
- 
+  </div>
+  <div className = "scroller" id = "media">
   <section className="et-slide" id="media">
   <h1 className = "about-heading-text">
       MEDIA
@@ -366,14 +389,21 @@ function Main(){
       <div className = "videogrid">
         <div className = "more-video">
           <iframe title = "More and Many More" className = "responsive-iframe"  src="https://www.youtube.com/embed/SCIR0hBggkE?start=71" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen = "true"></iframe>
-      </div>
-        <div className = "more-video">
-          <iframe title = "Lost in Japan" className = "responsive-iframe" src="https://www.youtube.com/embed/7JACC2Bb6eU?start=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen = "true"></iframe>
-          
         </div>
+        <div className = "more-video">
+          <iframe title = "Lost in Japan" className = "responsive-iframe" src="https://www.youtube.com/embed/7JACC2Bb6eU?start=2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen = "true"></iframe>  
+        </div>
+      </div>
+      <div className = "videogrid">
+        <div className = "japan-video">
+        <iframe title = "Comeback" className = "responsive-iframe" src="https://www.youtube.com/embed/1TGhK59ISKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen = "true"></iframe>
+        </div>
+        <div className = "japan-video">
+        <iframe title = "I Don't Think About You" className = "responsive-iframe" src="https://www.youtube.com/embed/2uwhJd5CHr8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen = "true"></iframe>        </div>  
       </div>
     
   </section>
+  </div>
   </div>
 </main>
 </div>
