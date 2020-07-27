@@ -164,7 +164,7 @@ nav a:hover
 
 nav a.active{
   font-weight: bold;
-  background-color: yellow;
+  background-color: maroon;
 }
 nav a:link{
   display: flex;
