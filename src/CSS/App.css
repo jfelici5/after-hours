@@ -32,11 +32,6 @@ text-decoration: none;
   justify-items: center;
 }
 
-.test {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
 
 .logo-image{
 
@@ -44,16 +39,6 @@ text-decoration: none;
   max-width: 40vh;
   height: auto;
   padding-top: 30%;
-}
-
-.logo-image-tab{
-
-  width: 100%;  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 7vh;
-  height: auto;
 }
 
 nav a:hover 
@@ -139,30 +124,11 @@ nav a:hover
   flex-direction: column;
 }
 
-.title-holder{
-  width: 100%;
-  height: 100%;
-}
-
 .content-holder{
   display: grid;
   width: 70%;
   margin: 0 auto;
   background-color: black;
-}
-
-.premiere{
-  color: white;
-  font-size: 2vw;
-}
-
-.after{
-  padding-top: 5.8vw;
-  padding-left: 5vw;
-  color: white;
-  font-weight: bold;
-  font-size: 7vw;
-  letter-spacing: 10;
 }
 
 .et-main{
@@ -192,7 +158,7 @@ nav a:hover
   width: 100%;
   height: 70px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  background: black;
+  background: transparent;
   z-index: 10;
 }
 
@@ -241,85 +207,9 @@ nav a:visited {
   font-size: 0.5rem;
 }
 
-
-.et-hero-tab-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  color: white;
-  letter-spacing: 0.1rem;
-  transition: all 0.5s ease;
-  font-size: 0.5rem;
- 
-}
-
-.et-hero-tab-logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  color: white;
-  letter-spacing: 0.1rem;
-  transition: all 0.5s ease;
-  font-size: 0.8rem;
-}
-
-.gutter-row{
-  width: 100%;
-  height: 100%;
-}
-
-.holder{
-  width: 100%;
-  height: 100%
-}
-
-.blank{
-  background-color: black;
-}
 mark{
   background-color: #8C2F39;
   color: white;
-}
-
-.App {
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-}
-
-
-.Title {
-  text-align: center;
-  font-size: calc(30px + 2vmin);
-  background-color: white;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 95vh;
-  height: 25%;
-  width: 100%;
-  font-size: 4px;
-}
-
-.logo {
-  text-align: center;
-  letter-spacing: 10px;
-  font-size: calc(50px + 2vmin);
-  font-weight: bold;
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-left: 50px;
-}
-
-.Title-text {
-  text-align: center;
-  color: white;
-  font-size: calc(4px + 2vmin);
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 50px;
 }
 
 .slideshow {
@@ -329,34 +219,8 @@ mark{
   font-size: calc(20px + 2vmin);
   color: black;
   justify-items: center;
-  padding-top: 10vh;
+  padding-top: 5vh;
   text-align: center;
-}
-
-.album-cover{
-  background-color: black;
-  height: 100%;
-  width: 100%;
-}
-
-.album-cover:before {
-  content: "";
-  display: block;
-  height: 0;
-  width: 0;
-  padding-bottom: calc(4/3 * 100%);
-}
-
-.album-heading{
-  font-weight: bold;
-  color: white;
-  padding-top: 5%;
-
-}
-
-.album-text{
-  color: white;
-  vertical-align: text-top;
 }
 
 .about-text{
@@ -372,4 +236,31 @@ mark{
   width: 100% ;
   font-weight: bold;   
   
+}
+
+@media only screen and (max-width: 750px) {
+  .content-holder {
+    width: 85%;
+  }
+
+  .grid-top {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+    padding-bottom: 20px;
+  }
+
+  .musicgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: 1fr;
+    grid-gap: 5px;
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+  }
 }
