@@ -68,32 +68,16 @@ function Main(){
     </h3>
     <div className = "about-grid">    
         <div className = "rettner">
-          <div className = "overlay">
-            <div className = "text">
-              <h6 className = "member-title">GRACE CONHEADY '21 | <em>PRESIDENT</em></h6>
-            </div> 
-          </div>
+          
         </div>     
         <div className = "hands-up">
-          <div className = "overlay">
-            <div className = "text">
-              <h6 className = "member-title">BEN RICHARDSON'21 | <em>MUSIC DIRECTOR</em></h6>
-            </div> 
-          </div>
+          
         </div>
         <div className = "groovestand">
-          <div className = "overlay">
-            <div className = "text">
-              <h6 className = "member-title">ERIN TOOHEY '21 | <em>BUSINESS MANAGER</em></h6>
-            </div> 
-          </div>
+          
         </div>
         <div className = "zoe-emma">
-        <div className = "overlay">
-            <div className = "text">
-              <h6 className = "member-title">SYDNEY SISSON '21 | <em>PUBLICITY MANAGER</em></h6>
-            </div> 
-          </div>
+        
         </div>
     </div>
   </section>
@@ -117,87 +101,163 @@ function Main(){
         <div className = "grace">
           <div className = "overlay">
             <div className = "text">
-              <h6 className = "member-title">GRACE CONHEADY '21 | <em>PRESIDENT</em></h6>
+            <h6 className = "member-title"><strong>GRACE CONHEADY '21</strong> | <em>PRESIDENT</em> <br></br></h6>
+                <h6 className = "member-info">
+                <strong>Hometown:</strong> Rochester, New York<br></br>
+                <strong>Majors/Minors:</strong> Linguistics Major, Audio Music Engineering and History Minors<br></br>
+                <strong>Voice Part:</strong>  Alto <br></br>
+                <strong>Year Joined AH:</strong> Fall 2017<br></br>
+                <strong>Fun Fact:</strong> I can clap only using one hand! 
+                </h6>
             </div> 
           </div>
         </div>     
         <div className = "ben">
           <div className = "overlay">
             <div className = "text">
-              <h6 className = "member-title">BEN RICHARDSON'21 | <em>MUSIC DIRECTOR</em></h6>
+            <h6 className = "member-title"><strong>BEN RICHARDSON '21</strong> | <em>MUSIC DIRECTOR</em> <br></br></h6>
+                <h6 className = "member-info">
+                <strong>Hometown:</strong> Brighton, New York<br></br>
+                <strong>Majors/Minors:</strong> Biomedical Engineering Major, Music Theory Cluster<br></br>
+                <strong>Voice Part:</strong>  Bass <br></br>
+                <strong>Year Joined AH:</strong> Spring 2018<br></br>
+                <strong>Fun Fact:</strong> I began my time in Afters Hours as a Tenor 1, and have slowly descended the ranks to Bass. Hard work pays off kids. 
+                </h6>
             </div> 
           </div>
         </div>
       </div>
       <div className = "grid-top">
         <div className = "erin">
-          <div className = "overlay">
+          <div className = "overlay-two">
             <div className = "text">
-              <h6 className = "member-title">ERIN TOOHEY '21 | <em>BUSINESS MANAGER</em></h6>
+            <h6 className = "member-title"><strong>ERIN TOOHEY '21</strong> | <em>BUSINESS MANAGER</em> <br></br></h6>
+                <h6 className = "member-info">
+                <strong>Hometown:</strong> Newton, Pennsylvania<br></br>
+                <strong>Majors/Minors:</strong> Linguistics Major, French and Audio Music Engineering Minors<br></br>
+                <strong>Voice Part:</strong>  Soprano <br></br>
+                <strong>Year Joined AH:</strong> Fall 2017<br></br>
+                <strong>Fun Fact:</strong> I once dyed my hair pink using only Kool Aid 
+                </h6>
             </div> 
           </div>
         </div>
         <div className = "sydney">
-        <div className = "overlay">
+        <div className = "overlay-two">
             <div className = "text">
-              <h6 className = "member-title">SYDNEY SISSON '21 | <em>PUBLICITY MANAGER</em></h6>
+            <h6 className = "member-title"><strong>SYDNEY SISSON '21</strong> | <em>PUBLICITY MANAGER</em> <br></br></h6>
+                <h6 className = "member-info">
+                <strong>Hometown:</strong> Wellsville, New York<br></br>
+                <strong>Majors/Minors:</strong> American Sign Language and Brain and Cognitive Sciences Majors<br></br>
+                <strong>Voice Part:</strong>  Soprano <br></br>
+                <strong>Year Joined AH:</strong> Spring 2018<br></br>
+                <strong>Fun Fact:</strong> I have my own dog that lives with me on campus
+                </h6>
             </div> 
           </div>
         </div>
-        <div className = "steven">
-          <div className = "overlay">
+        <div className = "emma">
+          <div className = "overlay-two">
             <div className = "text">
-              <h6 className = "member-title">STEVEN LI '23 | <em>ASSISTANT MUSIC DIRECTOR</em></h6>
+              <h6 className = "member-title"><strong>EMMA MICHELS '22</strong> | <em>SECRETARY</em></h6>
+              <h6 className = "member-info">
+                <strong>Hometown:</strong> Brockport, New York<br></br>
+                <strong>Majors/Minors:</strong> Brain and Cognitive Sciences and Dance Majors<br></br>
+                <strong>Voice Part:</strong>  Alto <br></br>
+                <strong>Year Joined AH:</strong> Fall 2019<br></br>
+                </h6>
             </div> 
           </div>
         </div>
       </div>
       <div className = "grid-top">
-          <div className = "zoe">
-          <div className = "overlay">
+          <div className = "steven">
+          <div className = "overlay-two">
               <div className = "text">
-                <h6 className = "member-title">ZOE HYNES '23 | <em>BOOKING MANAGER</em></h6>
+              <h6 className = "member-title"><strong>STEVEN LI '23</strong> | <em>ASSISTANT MUSIC DIRECTOR</em> <br></br></h6>
+                <h6 className = "member-info">
+                <strong>Hometown:</strong> Burlington, Vermont<br></br>
+                <strong>Majors/Minors:</strong> Computer Science<br></br>
+                <strong>Voice Part:</strong>  Tenor <br></br>
+                <strong>Year Joined AH:</strong> Fall 2019<br></br>
+                <strong>Fun Fact:</strong> Vermont has more cows than people
+                </h6>
               </div> 
             </div>
           </div>
-          <div className = "emma">
-          <div className = "overlay">
+          <div className = "zoe">
+          <div className = "overlay-two">
               <div className = "text">
-                <h6 className = "member-title">EMMA MICHELS '22 | <em>SECRETARY</em></h6>
+                <h6 className = "member-title"><strong>ZOE HYNES '23</strong> | <em>BOOKING MANAGER</em> <br></br></h6>
+                <h6 className = "member-info">
+                <strong>Hometown:</strong> Syracuse, New York<br></br>
+                <strong>Majors/Minors:</strong> Digital Media Studies and Psychology<br></br>
+                <strong>Voice Part:</strong>  Alto <br></br>
+                <strong>Year Joined AH:</strong> Fall 2019<br></br>
+                <strong>Fun Fact:</strong> After Hours’ resident Taylor Swift fan 
+                </h6>
+              </div> 
+            </div>
+          </div>
+          <div className = "jack">
+            <div className = "overlay-two">
+              <div className = "text">
+              <h6 className = "member-title"><strong>JACK FELICIANO '23</strong> <br></br></h6>
+                <h6 className = "member-info">
+                <strong>Hometown:</strong> Concord, California<br></br>
+                <strong>Majors/Minors:</strong> Computer Science Major<br></br>
+                <strong>Voice Part:</strong>  Tenor <br></br>
+                <strong>Year Joined AH:</strong> Fall 2019<br></br>
+                <strong>Fun Fact:</strong> I once went blind for two weeks
+                </h6>
               </div> 
             </div>
           </div>
       </div>
         <div className = "grid-top">
           <div className = "ashwin">
-            <div className = "overlay">
+            <div className = "overlay-two">
               <div className = "text">
-                <h6 className = "member-title">ASHWIN MENON '20</h6>
+              <h6 className = "member-title"><strong>ASHWIN MENON '20</strong> <br></br></h6>
+                <h6 className = "member-info">
+                <strong>Hometown:</strong> East Lyme, Connecticut<br></br>
+                <strong>Majors/Minors:</strong> Electrical and Computer Engineering<br></br>
+                <strong>Voice Part:</strong>  Tenor <br></br>
+                <strong>Year Joined AH:</strong> Spring 2019<br></br>
+                <strong>Fun Fact:</strong> I know Pi to 500 digits 
+                </h6>
               </div> 
             </div>
           </div>
         
           <div className = "luke">
-            <div className = "overlay">
+            <div className = "overlay-two">
               <div className = "text">
-                <h6 className = "member-title">LUKE NASH '20</h6>
+              <h6 className = "member-title"><strong>LUKE NASH '20</strong> <br></br></h6>
+                <h6 className = "member-info">
+                <strong>Hometown:</strong> Pennington, New Jersey<br></br>
+                <strong>Majors/Minors:</strong> Audio and Music Engineering<br></br>
+                <strong>Voice Part:</strong>  Tenor <br></br>
+                <strong>Year Joined AH:</strong> Spring 2019<br></br>
+                </h6>
               </div> 
             </div>
           </div>
-          <div className = "jack">
-            <div className = "overlay">
+          <div className = "franklin">
+            <div className = "overlay-two">
               <div className = "text">
-                <h6 className = "member-title">JACK FELICIANO '23</h6>
+              <h6 className = "member-title"><strong>FRANKLIN HONG '23</strong> <br></br></h6>
+                <h6 className = "member-info">
+                <strong>Hometown:</strong> Connecticut<br></br>
+                <strong>Majors/Minors:</strong> Undecided<br></br>
+                <strong>Voice Part:</strong>  Bass <br></br>
+                <strong>Year Joined AH:</strong> Spring 2020<br></br>
+                <strong>Fun Fact:</strong> I lived in Tokyo and Dublin
+                </h6>
               </div> 
             </div>
           </div>
-          <div className = "sydney">
-            <div className = "overlay">
-              <div className = "text">
-                <h6 className = "member-title">SYDNEY SISSON '21 | PUBLICITY MANAGER</h6>
-              </div> 
-            </div>
-          </div>
+              
         </div>
         </section>
   <section className="slideshow" id="music">
@@ -208,84 +268,84 @@ function Main(){
             
             <div className = "japan-card">
             <div className = "overlay-albums">
-              <div className = "text">
+              <div className = "texts">
                 <h6 className = "album-title"><strong>LOST IN JAPAN | SHAWN MENDES </strong><br></br><em>ARR. REAGAN CASTEEL</em></h6>
               </div>
             </div>
             </div>  
             <div className = "juice-card">
             <div className = "overlay-albums">
-              <div className = "text">
+              <div className = "texts">
                 <h6 className = "album-title"><strong>JUICE | LIZZO </strong><br></br><em>ARR. REAGAN CASTEEL</em></h6>
               </div>
             </div>  
             </div>
             <div className = "bellyache-card">
             <div className = "overlay-albums">
-              <div className = "text">
+              <div className = "texts">
                 <h6 className = "album-title"><strong>BELLYACHE | BILLIE EILISH </strong><br></br><em>ARR. MATT KYONG</em></h6>
               </div>
             </div>
             </div>
             <div className = "treasure-card">
             <div className = "overlay-albums">
-              <div className = "text">
-                <h6 className = "album-title"><strong>TREASURE| BRUNO MARS </strong><br></br><em>ARR. LUKE NASH</em></h6>
+              <div className = "texts">
+                <h6 className = "album-title"><strong>TREASURE | BRUNO MARS </strong><br></br><em>ARR. LUKE NASH</em></h6>
               </div>
             </div>
             </div>
             <div className = "more-card">
             <div className = "overlay-albums">
-              <div className = "text">
+              <div className = "texts">
                 <h6 className = "album-title"><strong>MORE AND MANY MORE | LAWRENCE </strong><br></br><em>ARR. REAGAN CASTEEL</em></h6>
               </div>
             </div>
             </div>
             <div className = "acid-card">
             <div className = "overlay-albums">
-              <div className = "text">
+              <div className = "texts">
                 <h6 className = "album-title"><strong>ACID DREAMS | MAX </strong><br></br><em>ARR. RYAN RACICOT</em></h6>
               </div>
             </div>
             </div>
             <div className = "bestpart-card">
             <div className = "overlay-albums">
-              <div className = "text">
+              <div className = "texts">
                 <h6 className = "album-title"><strong>BEST PART | DANIEL CAESAR </strong><br></br><em>ARR. MATT KYONG</em></h6>
               </div>
             </div>
             </div>
             <div className = "cough-card">
             <div className = "overlay-albums">
-              <div className = "text">
+              <div className = "texts">
                 <h6 className = "album-title"><strong>COUGH SYRUP | YOUNG THE GIANT </strong><br></br><em>ARR. BEN RICHARDSON</em></h6>
               </div>
             </div>
             </div>
             <div className = "brookyln-card">
             <div className = "overlay-albums">
-              <div className = "text">
+              <div className = "texts">
                 <h6 className = "album-title"><strong>BROOKLYN IN THE SUMMER | ALOE BLACC </strong><br></br><em>ARR. BEN RICHARDSON</em></h6>
               </div>
             </div>
             </div>
             <div className = "heart-card">
             <div className = "overlay-albums">
-              <div className = "text">
+              <div className = "texts">
                 <h6 className = "album-title"><strong>HEART SHAPED BOX | NIRVANA </strong><br></br><em>ARR. REAGAN CASTEEL</em></h6>
               </div>
             </div>
             </div>
             <div className = "dance-card">
             <div className = "overlay-albums">
-              <div className = "text">
+              <div className = "texts">
                 <h6 className = "album-title"><strong>CAN WE DANCE | THE VAMPS </strong><br></br><em>ARR. BEN RICHARDSON</em></h6>
               </div>
             </div>
             </div>
             <div className = "soclose-card">
             <div className = "overlay-albums">
-              <div className = "text">
+              <div className = "texts">
                 <h6 className = "album-title"><strong>SO CLOSE | FELIX JAEHN </strong><br></br><em>ARR. BEN RICHARDSON</em></h6>
               </div>
             </div>
@@ -313,10 +373,6 @@ function Main(){
         </div>
       </div>
     
-  </section>
-  <section className="et-slide" id="">
-    <h1>Other</h1>
-    <h3>something about other</h3>
   </section>
   </div>
 </main>
