@@ -1,6 +1,4 @@
-import React from 'react'
-import ReactDOM, { unmountComponentAtNode } from 'react-dom'
-import {Row, Col} from 'antd';
+import React, {Component} from 'react'
 import './CSS/App.css';
 import './CSS/People.css';
 import './CSS/Albums.css';
@@ -9,10 +7,10 @@ import './CSS/images.css';
 import './CSS/Videos.css'
 import logo from './imagesmisc/finallogopng.png';
 import $ from "jquery";
+import {Route, Switch} from 'react-router-dom'
+import {Gallery} from './Gallery'
 
-
-
-function Main(){
+export default function Main(){
   
   $(function () {
     $(document).scroll(function () {
@@ -27,54 +25,29 @@ function Main(){
 		var scrollDistance = $(document).scrollTop();
 
 		$('.scroller').each(function(i) {
-				if ($(this).position().top <= scrollDistance + 5) {
+				if ($(this).position().top <= scrollDistance +10) {
 						$('a').removeClass('active');
 						$('a').eq(i).addClass('active');
 				}
 		});
   }).scroll();
 
-  
-  $(function(){
-    $('a').click(function(){
-        $('a').removeClass('active');
-        $(this).addClass('active');
-    });
-  })
-
-  /*
-  $(window).on('scroll', function(event){
-    var scrollPos = $(document).scrollTop();
-    $("a").each(function () {
-      var currLink = $(this);
-      var refElement = $(currLink.attr("href"));
- 
-      if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-        currLink.parent().addClass("active").siblings().removeClass("active"); 
-        return;
-      }
-      else{
-        currLink.parent().removeClass("active");
-      }
-    })
-  })
-
-*/
 
     return(
+
 <div data-spy="scroll" data-target=".nav">
 <div className = "scroller">          
   <section className="et-hero-tabs" id ='#'>
     <nav className = "container-holder" id = "top-menu">
       <nav className="et-hero-tabs-container" id = "top-menu">
-        <a href="#" className = "active">HOME</a>
-        <a href="#about" >ABOUT</a>
-        <a href="#upcoming">UPCOMING</a>
-        <a href="#members">MEMBERS</a>
-        <a href="#music">MUSIC</a>
-        <a href="#media">MEDIA</a>
-        <a href="#gallery">GALLERY</a>
-        <a href="#bookus">BOOK US</a>
+        <a href = "#" className = "active">HOME</a>
+        <a href="/#about">ABOUT</a>
+        <a href="/#upcoming">SHOWS</a>
+        <a href="/#members">MEMBERS</a>
+        <a href="/#music">MUSIC</a>
+        <a href="/#media">MEDIA</a>
+        <a href="/gallery">GALLERY</a>
+        <a href = "https://docs.google.com/forms/d/e/1FAIpQLSeUO7YjUXzZ5q3gLureYPazT-AXDPB2MdF02i3I0leFc4jQFw/viewform?usp=sf_link" target="_blank">BOOK US</a>
       </nav>
     </nav> 
   </section>
@@ -409,12 +382,9 @@ function Main(){
   </div>
 </main>
 </div>
+
     );
 
     
 }
 
-
-
-
-export default Main;
