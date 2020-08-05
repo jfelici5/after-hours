@@ -17,7 +17,7 @@ text-decoration: none;
   position: fixed;
   width: 100%;
   background-color: maroon;
-  opacity: 100%;
+  opacity: 98%;
   overflow-x: hidden;
 }
 
@@ -313,6 +313,15 @@ mark{
   
   .container-holder.scrolled {
     display: none;
+  }
+
+  .about-heading-text{
+    padding-top: 10vh;
+    font-size: 5vh!important;
+    color: white;
+    width: 100% ;
+    font-weight: bold;   
+    
   }
   
   .content-holder {
