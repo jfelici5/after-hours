@@ -10,8 +10,6 @@ import $ from "jquery";
 import {Route, Switch} from 'react-router-dom'
 import {Navbar, Nav} from 'react-bootstrap'
 import {Gallery} from './Gallery'
-import './CSS/Navbar.css'
-
 
 
 export default function Main(){
