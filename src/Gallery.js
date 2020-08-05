@@ -20,10 +20,13 @@ import group17 from './gallery/group17.jpeg'
 import steven from './gallery/stevenv.JPG'
 import zoe from './gallery/zoev.JPG'
 import boys from './gallery/boys.JPG'
+import {Navbar, Nav} from 'react-bootstrap'
+import "./CSS/App.css"
 import './CSS/Gallery.css'
 import $ from "jquery";
 import {Switch, Route} from 'react-router-dom'
 import Main from './Main'
+import App from './App'
 
 export default function Gallery (){
 
@@ -39,7 +42,22 @@ export default function Gallery (){
   
   return(
     <div>
-    <div className = "scroller" id = "galler-home">          
+    <div className = "scroller" id = "galler-home">
+    <Navbar className = "bsnavbar" sticky = "top" expand="lg">
+  <Navbar.Toggle className = "nav-conts"/>
+  <Navbar.Collapse className = ".collapse"id="basic-navbar-nav">
+    <Nav className="mr-auto">
+      <Nav.Link href="/#"data-toggle="collapse"data-target=".navbar-collapse.show">Home</Nav.Link>
+      <Nav.Link className = "link-text"href="/#about"data-toggle="collapse"data-target=".navbar-collapse.show">About</Nav.Link>
+      <Nav.Link className = "link-text"href="/#upcoming"data-toggle="collapse"data-target=".navbar-collapse.show">Upcoming</Nav.Link>
+      <Nav.Link className = "link-text"href="/#members"data-toggle="collapse"data-target=".navbar-collapse.show">Members</Nav.Link>
+      <Nav.Link className = "link-text"href="/#music"data-toggle="collapse"data-target=".navbar-collapse.show">Music</Nav.Link>
+      <Nav.Link className = "link-text" href="/#media"data-toggle="collapse"data-target=".navbar-collapse.show">Media</Nav.Link>
+      <Nav.Link className = "link-text"href="/gallery"data-toggle="collapse"data-target=".navbar-collapse.show">Gallery</Nav.Link>
+      <Nav.Link className = "link-text" href="https://docs.google.com/forms/d/e/1FAIpQLSeUO7YjUXzZ5q3gLureYPazT-AXDPB2MdF02i3I0leFc4jQFw/viewform?usp=sf_link" target="_blank">Book Us</Nav.Link>
+    </Nav>
+  </Navbar.Collapse>
+</Navbar>                   
     <section className="gallery-heading-holder" id ='gallery'>
     <div className = "gallery-heading">
         <h1 className = "title">
